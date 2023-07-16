@@ -23,9 +23,9 @@ bool FalseStep(int degree)
     else return true;
 }
 
-Console.Write("Введите число: ");
+Console.Write("Input a number: ");
 int number = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите степень числа: ");
+Console.Write("Input a degree of the number: ");
 int degree = Convert.ToInt32(Console.ReadLine());
 
 if(FalseStep(degree))
